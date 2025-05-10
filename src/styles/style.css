@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
   width: 60%;
   margin: 2rem auto;
   border: 1px solid black;
@@ -16,7 +16,7 @@
 }
 
 /* General Info component */
-.general-container {
+.sub-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;

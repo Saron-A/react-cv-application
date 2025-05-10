@@ -9,7 +9,8 @@ const General = () => {
   });
 
   return (
-    <div className="general-container">
+    <div className="sub-container">
+      <h2>General Information</h2>
       <div className="input-label">
         <label htmlFor="name">Name: </label>
         <input
