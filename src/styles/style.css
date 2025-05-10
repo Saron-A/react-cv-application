@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 60%;
+  margin: 2rem auto;
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+/* General Info component */
+.general-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 80%;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-label input {
+  width: 100%;
+}
+
+button {
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  margin: 0.3rem auto;
+}
